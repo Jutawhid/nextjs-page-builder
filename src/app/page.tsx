@@ -13,16 +13,24 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { MAIN_BORDER_COLOR } from '../components/common';
 import CustomModal from '../components/CustomModal';
 import CustomAssetManager from '../components/CustomAssetManager';
-import Topbar from '../components/Topbar';
+import Topbar from '../components/headers/Topbar';
+import CenterArea from '../components/center';
 import RightSidebar from '../components/RightSidebar';
 import { Grid, Stack } from '@mui/material';
 import CustomBlockManager from '@/components/CustomBlockManager';
 import CustomTraitManager from '@/components/CustomTraitManager';
+import LeftBlock from '@/components/leftBlock'
 // import './style.css';
 
 const theme = createTheme({
   palette: {
     mode: 'dark',
+    background: {
+      default: "#222222"
+    },
+    text: {
+      primary: "#ffffff"
+    }
   },
 });
 
@@ -58,7 +66,7 @@ export default function Home() {
     // @ts-ignore
     <ThemeProvider theme={theme}>
       <GjsEditor
-        className="gjs-custom-editor text-white bg-slate-900"
+        className="gjs-custom-editor"
         grapesjs="https://unpkg.com/grapesjs"
         grapesjsCss="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
         options={gjsOptions}
@@ -70,19 +78,21 @@ export default function Home() {
         ]}
         onEditor={onEditor}
       >
-        <Grid container>
+        <Grid container style={{ backgroundColor: '#2B2B2B', color: "#fff"}}>
           <Grid sm={12}>
             <Topbar className="min-h-[48px]" />
           </Grid>
           <Grid sm={12}>
             <Grid container>
               <Grid sm={2}>
-                <BlocksProvider>
+                <LeftBlock/>
+                {/* <BlocksProvider>
                   {(props) => <CustomBlockManager {...props} />}
-                </BlocksProvider>
+                </BlocksProvider> */}
               </Grid>
               <Grid sm={8}>
-                <Canvas className="flex-grow gjs-custom-editor-canvas" />
+                {/* <Canvas className="flex-grow gjs-custom-editor-canvas" /> */}
+                <CenterArea/>
               </Grid>
               <Grid sm={2}>
                 {/* <RightSidebar

@@ -4,6 +4,8 @@ export const MAIN_TXT_COLOR = 'text-white';
 
 export const BTN_CLS = 'border rounded px-2 py-1 w-full';
 
+export const BTN_TOP_CLS = 'px-2 py-1 w-full text-white';
+
 export const MAIN_BORDER_COLOR = 'border-slate-500';
 
 export const ROUND_BORDER_COLOR = `rounded border ${MAIN_BORDER_COLOR}`;

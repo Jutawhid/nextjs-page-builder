@@ -6,10 +6,11 @@ import {
   mdiBorderRadius,
   mdiFullscreen,
   mdiXml,
+  mdiEyeOutline 
 } from '@mdi/js';
 import Icon from '@mdi/react';
 import { useEffect, useState } from 'react';
-import { BTN_CLS, MAIN_BORDER_COLOR, cx } from './common';
+import { BTN_CLS, MAIN_BORDER_COLOR, cx, BTN_TOP_CLS } from '../common';
 
 interface CommandButton {
   id: string;
@@ -25,19 +26,19 @@ export default function TopbarButtons({
   const [, setUpdateCounter] = useState(0);
   const { UndoManager, Commands } = editor;
   const cmdButtons: CommandButton[] = [
-    {
-      id: 'core:component-outline',
-      iconPath: mdiBorderRadius,
-    },
-    {
-      id: 'core:fullscreen',
-      iconPath: mdiFullscreen,
-      options: { target: '#root' },
-    },
-    {
-      id: 'core:open-code',
-      iconPath: mdiXml,
-    },
+    // {
+    //   id: 'core:component-outline',
+    //   iconPath: mdiBorderRadius,
+    // },
+    // {
+    //   id: 'core:fullscreen',
+    //   iconPath: mdiFullscreen,
+    //   options: { target: '#root' },
+    // },
+    // {
+    //   id: 'core:open-code',
+    //   iconPath: mdiXml,
+    // },
     {
       id: 'core:undo',
       iconPath: mdiArrowULeftTop,
@@ -47,6 +48,10 @@ export default function TopbarButtons({
       id: 'core:redo',
       iconPath: mdiArrowURightTop,
       disabled: () => !UndoManager.hasRedo(),
+    },
+    {
+      id: 'core:preview',
+      iconPath: mdiEyeOutline ,
     },
   ];
 
@@ -73,7 +78,7 @@ export default function TopbarButtons({
           key={id}
           type="button"
           className={cx(
-            BTN_CLS,
+            BTN_TOP_CLS,
             MAIN_BORDER_COLOR,
             Commands.isActive(id) && 'text-sky-300',
             disabled?.() && 'opacity-50'

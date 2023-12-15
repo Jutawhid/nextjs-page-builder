@@ -1,0 +1,1233 @@
+.m4yoursEditor {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: 26px;
+    font-weight: 600;
+  }
+  .letsIconsback2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .letsIconsbackParent,
+  .pheyeBoldIcon1 {
+    position: absolute;
+    top: calc(50% - 12px);
+  }
+  .letsIconsbackParent {
+    left: 1603px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+  }
+  .pheyeBoldIcon1 {
+    left: 1670px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .publish {
+    position: relative;
+  }
+  .m4yoursEditorParent,
+  .publishWrapper {
+    position: absolute;
+    box-sizing: border-box;
+    height: 48px;
+  }
+  .publishWrapper {
+    top: calc(50% - 24px);
+    right: 0;
+    background-color: #f1614a;
+    width: 196px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .m4yoursEditorParent {
+    top: 0;
+    left: calc(50% - 960px);
+    background-color: #2b2b2b;
+    border-bottom: 1px solid #575757;
+    width: 1920px;
+    overflow: hidden;
+    font-family: "IBM Plex Sans";
+  }
+  .text9 {
+    flex: 1;
+    position: relative;
+    line-height: 21px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+      ),
+      #4b465c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .form,
+  .form1 {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .form1 {
+    flex: 1;
+    overflow: hidden;
+    padding: 6px 10px;
+    gap: 6px;
+  }
+  .form {
+    /* position: absolute; */
+    top: 26px;
+    left: 26px;
+    background-color: #333;
+    width: auto;
+    font-size: 13px;
+  }
+  .frameChild,
+  .frameItem {
+    /* position: absolute; */
+    top: 84.5px;
+    left: 25.5px;
+    border-top: 1px solid #575757;
+    box-sizing: border-box;
+    /* width: 309px; */
+    height: 1px;
+  }
+  .frameItem {
+    top: 357.5px;
+  }
+  .myComponents {
+    position: relative;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .basicParent,
+  .myComponentsParent {
+    /* position: absolute; */
+    top: 111px;
+    left: 26px;
+    /* width: 308px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .basicParent {
+    top: 384px;
+  }
+  .picture1Icon4 {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+  }
+  .picture1Parent {
+    align-self: stretch;
+    /* flex: 1; */
+    border-radius: 4px;
+    background-color: #2f3031;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    gap: 10px;
+    width: 30%;
+    flex-flow: wrap;
+  }
+  .frameGroup {
+    align-self: stretch;
+    /* height: 89px; */
+    flex-direction: row;
+    gap: 6px;
+    flex-flow: wrap;
+    margin-bottom: 15px;
+  }
+  .frameGroup,
+  .frameParent,
+  .frameWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper {
+    width: 99px;
+    /* height: 89px; */
+    flex-direction: row;
+  }
+  .frameParent {
+    /* position: absolute; */
+    top: 148px;
+    left: 26px;
+    /* width: 308px; */
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+  }
+  .iconParkaddText1 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .frameParent1 {
+    /* position: absolute; */
+    top: 421px;
+    left: 26px;
+    /* width: 308px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    font-size: 12px;
+  }
+  .formParent {
+    bottom: 0;
+    padding-top: 20px;
+    background-color: #2b2b2b;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .blockOptionsParent {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    width: 308px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .iconParkSoliddownOne2 {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .normalParent {
+    flex: 1;
+    border-radius: 3px;
+    background-color: #595964;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 6px;
+  }
+  .icon9 {
+    position: relative;
+    width: 7.06px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .mdimonitorOff {
+    border-radius: 3px 0 0 3px;
+    background-color: #595964;
+    width: 23px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+    box-sizing: border-box;
+  }
+  .frameWrapper1,
+  .mdimonitorOffWrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper1 {
+    border-radius: 3px 0 0 3px;
+  }
+  .icon10 {
+    position: relative;
+    width: 7.89px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .mdimonitorOff1 {
+    background-color: #595964;
+    width: 23px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+    box-sizing: border-box;
+  }
+  .icon11,
+  .icon12 {
+    position: relative;
+    width: 7.16px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .icon12 {
+    width: 11.03px;
+  }
+  .mdimonitorOff3 {
+    border-radius: 0 3px 3px 0;
+    background-color: #595964;
+    width: 23px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+    box-sizing: border-box;
+  }
+  .frameParent8 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+  }
+  .icon13,
+  .icon14 {
+    position: relative;
+    width: 10.51px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .icon14 {
+    width: 9.36px;
+  }
+  .frameParent7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+  }
+  .iconParkSoliddownOneWrapper,
+  .wrapper {
+    border-radius: 3px;
+    background-color: #595964;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    width: 42px;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 4px 10px;
+  }
+  .iconParkSoliddownOneWrapper {
+    width: 78px;
+    height: 23px;
+    justify-content: flex-end;
+    padding: 4px 6px;
+  }
+  .icon15 {
+    position: relative;
+    width: 11.35px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .mdimonitorOff6 {
+    flex: 1;
+    border-radius: 3px 0 0 3px;
+    background-color: #595964;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+  }
+  .frameWrapper7,
+  .mdimonitorOffWrapper5 {
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper7 {
+    border-radius: 3px 0 0 3px;
+  }
+  .icon16 {
+    position: relative;
+    width: 10.93px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .mdimonitorOff7 {
+    flex: 1;
+    background-color: #595964;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+  }
+  .vectorIcon1 {
+    position: relative;
+    width: 5.02px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .mdimonitorOff8 {
+    flex: 1;
+    border-radius: 0 3px 3px 0;
+    background-color: #595964;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.900006294250488px 5.914290904998779px;
+  }
+  .frameParent11,
+  .frameWrapper9 {
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper9 {
+    border-radius: 0 3px 3px 0;
+  }
+  .frameParent11 {
+    gap: 1px;
+  }
+  .icon17 {
+    position: relative;
+    width: 9.2px;
+    height: 9.2px;
+    object-fit: cover;
+  }
+  .frameParent6,
+  .integrateBuildPublishAndWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent6 {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .integrateBuildPublishAndWrapper {
+    flex-direction: row;
+    padding: 0 16px;
+  }
+  .frameParent5,
+  .text10 {
+    position: absolute;
+    left: 26px;
+  }
+  .frameParent5 {
+    top: 91px;
+    border-radius: 4px;
+    background-color: #2f3031;
+    border: 1px solid #575757;
+    box-sizing: border-box;
+    width: 308px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 12px 50px;
+    gap: 16px;
+    font-size: 12px;
+    font-family: Inter;
+  }
+  .text10 {
+    top: 63px;
+    font-size: 14px;
+    color: #707070;
+  }
+  .vector1 {
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+  }
+  .formSwitchButton1,
+  .inlineTextEditingParent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .formSwitchButton1 {
+    border-radius: 100px;
+    background-color: #f1614a;
+    width: 30px;
+    justify-content: flex-end;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  .inlineTextEditingParent {
+    width: 308px;
+    justify-content: space-between;
+  }
+  .byDoubleClicking {
+    margin: 0;
+  }
+  .allowRichTextContainer {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    color: #707070;
+  }
+  .frameParent13 {
+    position: absolute;
+    top: 289px;
+    left: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .frameParent4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #2b2b2b;
+    width: 360px;
+    height: 1032px;
+    overflow: hidden;
+  }
+  .desktopWrapper,
+  .mobileWrapper {
+    position: absolute;
+    top: 138px;
+    left: 537px;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    width: 594px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  .mobileWrapper {
+    left: 1169px;
+    width: 214px;
+  }
+  .plusIcon4 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+  }
+  .text11 {
+    position: relative;
+    letter-spacing: 0.43px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .button3 {
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: 6px 14px;
+    gap: 6px;
+  }
+  .button2,
+  .button3,
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button2 {
+    border-radius: 4px;
+    background-color: #1a73e8;
+    flex-direction: row;
+  }
+  .buttonWrapper {
+    position: absolute;
+    top: 354px;
+    left: calc(50% - 297px);
+    background-color: #05080d;
+    border: 1px solid #5d96ff;
+    box-sizing: border-box;
+    width: 594px;
+    flex-direction: column;
+    padding: 40px 10px;
+    font-size: 13px;
+  }
+  .ionlogoXboxIcon2,
+  .lighticon {
+    position: relative;
+    object-fit: cover;
+  }
+  .ionlogoXboxIcon2 {
+    width: 19.8px;
+    height: 19.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lighticon {
+    width: 6.6px;
+    height: 6.6px;
+  }
+  .menu,
+  .pricing {
+    display: flex;
+    flex-direction: row;
+  }
+  .pricing {
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 3.3px;
+  }
+  .menu {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16.5px;
+  }
+  .lightbutton,
+  .lightsearchBox {
+    border-radius: 12.38px;
+    height: 19.8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .lightsearchBox {
+    background-color: #f0f1f2;
+    width: 99px;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 0 0 9.074999809265137px;
+    gap: 4.13px;
+  }
+  .lightbutton {
+    background-color: #4475f2;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15.675000190734863px;
+    color: #fff;
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3.3px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Plus Jakarta Display";
+  }
+  .container2,
+  .headerLight041 {
+    position: absolute;
+    top: 0;
+    height: 29.7px;
+  }
+  .container2 {
+    left: 61.88px;
+    width: 470.25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16.5px;
+  }
+  .headerLight041 {
+    left: calc(50% - 297px);
+    background-color: #000;
+    border-bottom: 1px solid #575757;
+    box-sizing: border-box;
+    width: 594px;
+    overflow: hidden;
+    color: #9a9ea6;
+    font-family: "IBM Plex Sans";
+  }
+  .bottomBar {
+    position: absolute;
+    top: 135.71px;
+    left: 61.88px;
+    width: 470.25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .faq {
+    position: relative;
+    text-transform: capitalize;
+  }
+  .items,
+  .menu1,
+  .menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .items {
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: 8.25px;
+    font-size: 5.78px;
+    color: #9a9ea6;
+  }
+  .menu1,
+  .menu2 {
+    top: 0;
+    justify-content: center;
+    gap: 9.9px;
+  }
+  .menu1 {
+    position: absolute;
+    left: 160.88px;
+  }
+  .menu2 {
+    left: 80.44px;
+  }
+  .menu2,
+  .menu3,
+  .menus {
+    position: absolute;
+  }
+  .menu3 {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 9.9px;
+  }
+  .menus {
+    top: 23.1px;
+    left: 303.19px;
+    width: 208.88px;
+    height: 92.9px;
+    font-size: 7.43px;
+    color: #464646;
+  }
+  .logoIcon1 {
+    position: relative;
+    width: 35.71px;
+    height: 16.5px;
+    object-fit: cover;
+  }
+  .weAraA2 {
+    line-height: 9.9px;
+  }
+  .readMore {
+    color: #4475f2;
+  }
+  .weAraAContainer {
+    align-self: stretch;
+    position: relative;
+  }
+  .introduction {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.95px;
+  }
+  .lightsocialIcons {
+    position: relative;
+    width: 8.25px;
+    height: 8.25px;
+    object-fit: cover;
+  }
+  .lightminiButton {
+    border-radius: 12.38px;
+    background-color: #e3ebfd;
+    width: 19.8px;
+    height: 19.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .left,
+  .socials {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .socials {
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.3px;
+  }
+  .left {
+    position: absolute;
+    top: 23.1px;
+    left: 61.88px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12.38px;
+  }
+  .footerLight041 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 297px);
+    background-color: #0c0c0c;
+    width: 594px;
+    height: 196px;
+    overflow: hidden;
+    color: #9a9ea6;
+    font-family: "IBM Plex Sans";
+  }
+  .text12 {
+    position: relative;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+  }
+  .button4 {
+    background-color: #1a73e8;
+    border-right: 0.6px solid rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5.833333969116211px 11.666667938232422px;
+  }
+  .chevronDownIcon10 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+  }
+  .button6 {
+    background-color: #1a73e8;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5.833333969116211px 11.666667938232422px;
+  }
+  .horizontalButtonGroup1 {
+    position: absolute;
+    top: 330px;
+    left: 18px;
+    border-radius: 3.5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .unsplashHcpwe1PrcIcon {
+    position: absolute;
+    top: calc(50% - 242px);
+    right: -36px;
+    width: 729px;
+    height: 485px;
+    object-fit: cover;
+  }
+  .giftGuide,
+  .heresToJoy2 {
+    position: absolute;
+    top: 18.95px;
+    left: calc(50% - 114.5px);
+  }
+  .giftGuide {
+    top: 0;
+    left: calc(50% - 38.5px);
+    font-size: 13.41px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #69764a;
+  }
+  .thereAreMany2 {
+    position: absolute;
+    top: 69.67px;
+    left: 0;
+    font-size: 8.57px;
+    color: #7a8365;
+    text-align: center;
+    display: inline-block;
+    width: 299px;
+  }
+  .plusIcon5 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    display: none;
+  }
+  .text14 {
+    position: relative;
+    letter-spacing: 0.43px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .button7 {
+    position: absolute;
+    top: 105.95px;
+    left: calc(50% - 55.5px);
+    border-radius: 4px;
+    background-color: #536136;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #fff;
+    font-family: "Public Sans";
+  }
+  .heresToJoyParent {
+    position: absolute;
+    top: 95px;
+    left: calc(50% - 149px);
+    width: 299px;
+    height: 133.95px;
+  }
+  .unsplashHcpwe1PrcParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 594px;
+    height: 324px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36.22px;
+    color: #536136;
+    font-family: Inter;
+  }
+  .groupChild {
+    position: absolute;
+    top: 312px;
+    left: 552px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+  }
+  .horizontalButtonGroupParent {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 594px;
+    height: 351.67px;
+    text-align: center;
+    font-size: 8.75px;
+  }
+  .frameParent14 {
+    position: absolute;
+    top: 193px;
+    left: 537px;
+    background-color: #000;
+    width: 594px;
+    height: 805px;
+    overflow: hidden;
+    font-size: 5.78px;
+  }
+  .ionlogoXboxIcon3 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .darkicon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+  }
+  .darkminiButton {
+    position: absolute;
+    top: calc(50% - 9px);
+    right: 16px;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .ionlogoXboxParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    border-bottom: 1px solid #575757;
+    box-sizing: border-box;
+    width: 214px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .logoChild,
+  .swipeIcon1 {
+    position: absolute;
+    height: 34.93%;
+    width: 45.31%;
+    top: 35.53%;
+    right: 0;
+    bottom: 29.53%;
+    left: 54.69%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .logoChild {
+    height: 100%;
+    width: 46.2%;
+    top: 0;
+    right: 53.8%;
+    bottom: 0;
+    left: 0;
+  }
+  .logo {
+    position: absolute;
+    height: 12.42%;
+    width: 29.91%;
+    top: 6.92%;
+    right: 62.62%;
+    bottom: 80.66%;
+    left: 7.48%;
+  }
+  .weAraAContainer1 {
+    position: absolute;
+    top: 56.03px;
+    left: 16px;
+    display: inline-block;
+    width: 182px;
+  }
+  .socials1 {
+    position: absolute;
+    top: 178px;
+    left: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.3px;
+  }
+  .allRightsReserved3 {
+    position: absolute;
+    top: 214px;
+    left: calc(50% - 44px);
+  }
+  .aboutParent,
+  .frameParent16 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .aboutParent {
+    width: 182px;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .frameParent16 {
+    position: absolute;
+    top: 110px;
+    left: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 7.43px;
+    color: #464646;
+  }
+  .logoParent {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 107px);
+    background-color: #0c0c0c;
+    width: 214px;
+    height: 238px;
+    overflow: hidden;
+  }
+  .unsplashHcpwe1PrcIcon1 {
+    position: absolute;
+    top: calc(50% - 110.5px);
+    left: calc(50% - 182px);
+    width: 333px;
+    height: 221px;
+    object-fit: cover;
+  }
+  .giftGuide1,
+  .heresToJoy3 {
+    position: absolute;
+    top: 9.82px;
+    left: calc(50% - 59.36px);
+  }
+  .giftGuide1 {
+    top: 0;
+    left: calc(50% - 19.96px);
+    font-size: 6.95px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #69764a;
+  }
+  .thereAreMany3 {
+    position: absolute;
+    top: 36.12px;
+    left: 0;
+    font-size: 4.44px;
+    color: #7a8365;
+    text-align: center;
+    display: inline-block;
+    width: 155px;
+  }
+  .plusIcon6 {
+    position: relative;
+    width: 8.29px;
+    height: 8.29px;
+    object-fit: cover;
+    display: none;
+  }
+  .text15 {
+    position: relative;
+    letter-spacing: 0.22px;
+    line-height: 8.29px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .button10,
+  .button9 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .button10 {
+    padding: 3.110367774963379px 7.2575249671936035px;
+    gap: 3.11px;
+  }
+  .button9 {
+    position: absolute;
+    top: 54.92px;
+    left: calc(50% - 28.61px);
+    border-radius: 2.07px;
+    background-color: #536136;
+    width: 48.73px;
+    height: 14.52px;
+    font-size: 6.74px;
+    color: #fff;
+    font-family: "Public Sans";
+  }
+  .heresToJoyGroup {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 78px);
+    width: 155px;
+    height: 69.44px;
+  }
+  .unsplashHcpwe1PrcGroup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 214px;
+    height: 173px;
+    overflow: hidden;
+  }
+  .button11,
+  .buttonFrame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button11 {
+    border-radius: 4px;
+    background-color: #5d96ff;
+    flex-direction: row;
+  }
+  .buttonFrame {
+    position: absolute;
+    top: 173px;
+    left: calc(50% - 107px);
+    background-color: #05080d;
+    border: 1px solid #5d96ff;
+    box-sizing: border-box;
+    width: 214px;
+    flex-direction: column;
+    padding: 40px 10px;
+    font-size: 13px;
+    color: #fff;
+    font-family: "Public Sans";
+  }
+  .frameParent15,
+  .groupDiv {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 214px;
+    height: 281px;
+    font-size: 18.78px;
+    color: #536136;
+    font-family: Inter;
+  }
+  .frameParent15 {
+    top: 193px;
+    left: 1169px;
+    background-color: #000;
+    height: 724px;
+    overflow: hidden;
+    font-size: 5.78px;
+    color: #9a9ea6;
+    font-family: "IBM Plex Sans";
+  }
+  .editor {
+    position: relative;
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Public Sans";
+  }
+  
