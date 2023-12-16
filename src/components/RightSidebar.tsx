@@ -18,7 +18,7 @@ import Icon from '@mdi/react';
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 import { useState } from 'react';
-import CustomBlockManager from './CustomBlockManager';
+import CustomBlockManager from './leftBlock/CustomBlockManager';
 import { MAIN_BORDER_COLOR, cx } from './common';
 import CustomPageManager from './CustomPageManager';
 import CustomLayerManager from './CustomLayerManager';
