@@ -26,20 +26,10 @@ export default function LeftBlock() {
   return (
     <>
       <Stack p={1}>
-        {/* <Stack display={'flex'}>
-          <BlocksProvider>
-            {(props) => <MyBlockManager {...props} />}
-          </BlocksProvider>
-        </Stack> */}
         <Stack display={'flex'} mt={1}>
           <BlocksProvider>
             {(props) => <CustomBlockManager {...props} />}
           </BlocksProvider>
-          <Box sx={style.button} draggable>
-            <img alt=""
-              src="/picture-1@2x.png" width={12} height={12} />
-            <Typography sx={{ fontSize: "12px", marginTop: '5px' }}>Hero</Typography>
-          </Box>
         </Stack>
       </Stack>
     </>

@@ -7,7 +7,7 @@ import { Box, Typography } from '@mui/material';
 const style = {
   button: {
     display: 'flex',
-    padding: "10px 20px",
+    padding: "10px 5px",
     width: "auto",
     height: "80px",
     justifyContent: "center",
@@ -53,7 +53,7 @@ export default function CustomBlockManager({
                   dangerouslySetInnerHTML={{ __html: block.getMedia()! }}
                 />
                 <Typography
-                  sx={{ fontSize: '10px'}}
+                  sx={{ fontSize: '10px', marginTop: '5px'}}
                   title={block.getLabel()}
                 >
                   {block.getLabel()}

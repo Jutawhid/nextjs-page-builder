@@ -6,14 +6,17 @@ import Select from '@mui/material/Select';
 import { cx } from '../common';
 import TopbarButtons from './TopbarButtons';
 import { Button, Typography } from '@mui/material';
+import Link from 'next/link';
 
 export default function Topbar({
     className,
 }: React.HTMLAttributes<HTMLDivElement>) {
     return (
         <div className={cx('gjs-top-sidebar flex items-center pl-2')} style={{ backgroundColor: '#2B2B2B', borderBottom: '1px solid #999'}}>
-            <Typography sx={{ color: '#fff' }}>M4yours Editor</Typography>
-            {/* <DevicesProvider>
+            <Link href={'/'}>
+            <Typography sx={{ color: '#fff' , marginRight: '15px'}}>M4yours Editor</Typography>
+            </Link>
+            <DevicesProvider>
                 {({ selected, select, devices }) => (
                     <FormControl size="small">
                         <Select value={selected} onChange={(ev) => select(ev.target.value)}>
@@ -25,7 +28,7 @@ export default function Topbar({
                         </Select>
                     </FormControl>
                 )}
-            </DevicesProvider> */}
+            </DevicesProvider>
             <WithEditor>
                 <TopbarButtons className="ml-auto px-2" />
             </WithEditor>

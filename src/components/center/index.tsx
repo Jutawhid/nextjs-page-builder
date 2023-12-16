@@ -6,6 +6,7 @@ import { Canvas as DesktopCanvas } from '@grapesjs/react';
 import FormControl from '@mui/material/FormControl';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
+import HeroImage from '../theme/HeroImage';
 
 const style = {
     button: {
@@ -46,6 +47,7 @@ export default function CenterArea() {
         <>
             <Stack sx={style.centerWrapper} gap={2}>
                 <Stack sx={{ width: '600px' }}>
+                    {/* <HeroImage/> */}
                     <Stack sx={style.title}>Desktop</Stack>
                     <Stack>
                         <DesktopCanvas className="flex-grow gjs-custom-editor-canvas" id="desktop"/>

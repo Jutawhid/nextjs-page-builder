@@ -13,6 +13,29 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        black: "#000",
+        tomato: {
+          "100": "#f1614a",
+          "200": "rgba(241, 97, 74, 0.3)",
+        },
+        white: "#fff",
+        goldenrod: "#ffbb37",
+      },
+      spacing: {},
+      fontFamily: {
+        inter: "Inter",
+        inconsolata: "Inconsolata",
+        ligconsolata: "Ligconsolata",
+      },
+      borderRadius: {
+        "2xs": "11px",
+      },
+    },
+    fontSize: {
+      "18xl": "37px",
+      "11xl": "30px",
+      inherit: "inherit",
     },
   },
   plugins: [],
