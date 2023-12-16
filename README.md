@@ -10,7 +10,7 @@
 
   <p align="center">
     <br />
-    <a href="https://eshop-azure-three.vercel.app/">View Demo</a>
+    <a href="https://nextjs-page-builder-blush.vercel.app">View Demo</a>
   </p>
 </div>
 
