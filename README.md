@@ -22,6 +22,7 @@ This is a Page builder website it have Home page, Editor page.
 ### Built With
 
 * Nextjs
+* TypeScript
 * Material UI
 * Tailwind css
 * Grapes.js
